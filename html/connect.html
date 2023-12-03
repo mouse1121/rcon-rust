@@ -2,14 +2,16 @@
 
 	<div class="col-md-offset-4 col-md-6 panel jumbotron" style="margin-top: 128px">
 
-		<h2>Connect</h2>
-
 		<div class="alert alert-danger" ng-show="LastErrorMessage != null">
 			{{LastErrorMessage}}
 		</div>
 
-		<p>Enter the address (including rcon port) and the rcon password below to connect.</p>
+		<img src="https://billing.serv.games/templates/lagom2/assets/img/logo/logo_small_inverse.59135118.svg" alt="SERV.GAMES">
+		<h2>Welcome to our Web RCON Tool for Rust servers.</h2>
 
+		<p><a href="https://billing.serv.games/index.php?rp=/knowledgebase">How to login.</a></p>
+		<p><a href="https://serv.games/en-US/game/rust">Don't have a server?</a></p>
+		
 		<form ng-submit="Connect()">
 
 				<div class="form-group">
